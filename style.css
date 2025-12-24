@@ -1,0 +1,53 @@
+body {
+    background-color: #ffccd5; /* Light pink background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Dancing Script', cursive; /* Use the imported font */
+    color: #444;
+}
+
+.letter-container {
+    width: 80%;
+    max-width: 500px;
+    padding: 2rem;
+    background-color: #fff; /* White "paper" background */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    line-height: 1.5;
+    transform: rotate(2.5deg); /* A slight tilt for a handwritten feel */
+    transition: transform 0.5s ease-in-out;
+}
+
+.letter-container:hover {
+    transform: rotate(0deg); /* Straightens on hover */
+}
+
+.date {
+    text-align: right;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.salutation {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.message {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.closing {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.signature {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
